@@ -11,6 +11,6 @@ def using_uniq(array)
   array.uniq
 end
 
-def using_flatten(array, "string")
-  [array, "string"].flatten 
+def using_flatten([["a"], ["b"]])
+  [a, b].flatten 
 end
